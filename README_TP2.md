@@ -20,12 +20,17 @@ Los temas a incorporar para este trabajo práctico son:
 - Capas de abstracción de hardware y software
   
 ## Descripción
-En este trabajo práctico se incorporará el uso de un teclado matricial para acceder a la puerta en caso de pérdida del lector RFID. Para ello, se necesitará:
-- Implementar el teclado matricial
+En este trabajo práctico se incorporará un teclado matricial para acceder a la puerta en caso de pérdida de la tarjeta RFID. Para ello, se necesitará:
+- Implementar el teclado matricial 
 - Implementar un timer para medir el debounce de las teclas
-- Incluir funciones de titileo de LEDS para indicar cuando una tarjeta introducida es incorrecta
+El teclado matricial es del estilo que se muestra debajo:
+- https://www.mercadolibre.com.ar/teclado-membrana-matricial-4x4-autoadhesivo-arduino/p/MLA32492378?item_id=MLA1666016868&from=gshop&matt_tool=56318942&matt_word=&matt_source=google&matt_campaign_id=14545592786&matt_ad_group_id=161054711007&matt_match_type=&matt_network=g&matt_device=c&matt_creative=686452904785&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735113679&matt_product_id=MLA32492378-product&matt_product_partition_id=2266488685416&matt_target_id=aud-1928690346655:pla-2266488685416&cq_src=google_ads&cq_cmp=14545592786&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=Cj0KCQjwurS3BhCGARIsADdUH51zF87hFhsJY3J3Xz3nVAZ83l_DVT49zmMAnxrvuYJDPuvP_MFUeoYaAjGUEALw_wcB
 
-Adicionalmente, en este trabajo práctico se propone revisar y rediseñar la interfaz SPI desarrollada en SE_TP1. Para
+Se incluirán funciones de titileo de LEDS para indicar cuando una tarjeta introducida es incorrecta y tambien para indicar cuando una tarjeta fue guardada correctamente. 
+Adicionalmente, en este trabajo práctico se propone revisar y rediseñar la interfaz SPI desarrollada en SE_TP1. Enfatizando la modularización en archivos, el buen uso de variables y funciones, la maximización de la cohesion y la minimización del acoplamiento.
+
+Por último, se incorporará un sensor magnético para detectar cuando la puerta esta en el lugar correcto para cerrarla y cuando fue olvidada abierta. Si fue olvidada abierta, en el proximo trabajo práctico se notificará al usario por celular o se hará sonar una alarma.
+
 
 ## Desarrollo
 A continuación, se describe el contenido de este Trabajo Práctico:

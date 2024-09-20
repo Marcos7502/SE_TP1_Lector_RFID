@@ -19,10 +19,15 @@ Los temas a incorporar para este trabajo práctico son:
 - Interfaces I2C y SPI
 - Capas de abstracción de hardware y software
   
-## Descripcion
-En este trabajo práctico se incorporará el uso de un teclado matricial para acceder a la puerta en caso de pérdida del lector RFID.
+## Descripción
+En este trabajo práctico se incorporará el uso de un teclado matricial para acceder a la puerta en caso de pérdida del lector RFID. Para ello, se necesitará:
+- Implementar el teclado matricial
+- Implementar un timer para medir el debounce de las teclas
+- Incluir funciones de titileo de LEDS para indicar cuando una tarjeta introducida es incorrecta
 
-## Desarrollo:
+Adicionalmente, en este trabajo práctico se propone revisar y rediseñar la interfaz SPI desarrollada en SE_TP1. Para
+
+## Desarrollo
 A continuación, se describe el contenido de este Trabajo Práctico:
 1) Se realiza el esquemático con las conexiones en TP1_SE_esquematico. Éste se define a partir de las especificaciones y de la hoja de datos en https://os.mbed.com/platforms/ST-Nucleo-F429ZI/
 2) Con el esquemático, se definen los pines a utilizar para el código en global_definitions

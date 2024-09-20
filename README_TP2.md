@@ -1,5 +1,15 @@
-# Trabajo Práctico 2
-Los temas para son:
+# SE_TP2_Teclado_Matricial
+Trabajo practico número 2 de la materia Sistemas Embebidos de la FIUBA
+
+Título: Smartlock
+
+Alumno: Marcos Gómez Villafañe
+
+Padrón: 105055
+
+Objetivo Final: Desarrollar una cerradura inteligente que permita acceder con tarjeta y, en caso de visita sin tarjeta, permita hablar por telefono con la visita.
+
+Los temas a incorporar para este trabajo práctico son:
 - Máquina de estado finito
 - Reloj de tiempo real 
 - Modularización en archivos
@@ -8,6 +18,9 @@ Los temas para son:
 - Displays alfanuméricos y gráficos
 - Interfaces I2C y SPI
 - Capas de abstracción de hardware y software
+  
+## Descripcion
+En este trabajo práctico se incorporará el uso de un teclado matricial para acceder a la puerta en caso de pérdida del lector RFID.
 
 ## Desarrollo:
 A continuación, se describe el contenido de este Trabajo Práctico:

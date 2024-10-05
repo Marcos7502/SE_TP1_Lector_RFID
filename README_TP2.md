@@ -63,7 +63,7 @@ Periféricos a utilizar:
 ### Diagrama en bloques
 ![Sistemas Embebidos TP2](https://github.com/user-attachments/assets/3b8da742-4e1e-4fda-8ae9-c1bbe9e61cb6)
 
-### Maquina de Estados
+### Máquina de Estados
 ![Estados TP2 SE](https://github.com/user-attachments/assets/89ae4942-22ab-4f68-b6c9-ae8b9b16837a)
 
-
+### Resultado

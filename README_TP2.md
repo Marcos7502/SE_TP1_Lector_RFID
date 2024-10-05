@@ -53,14 +53,17 @@ Plataforma de desarrollo: NUCLEO-F429ZI
 
 Periféricos a utilizar:
 - LED 1: Se encenderá para indicar que se desbloquea la puerta. Titila al guardar una tarjeta.
-- LED 2: Se encenderá para indicar que se bloquea la puerta. Titila cuando se introduce codigo o tarjeta erronea.
+- LED 2: Se encenderá para indicar que se bloquea la puerta. Titila cuando se introduce un
+código o tarjeta erronea.
 - SPI1: Se utiliza para leer la contraseña de la tarjeta mediante el lector RFID
 - UART1: Se utiliza para enviar información de estado del sistema a la PC y para escribir una contraseña a la tarjeta
 - USER BUTTON: Fuerza el bloqueo de la puerta
 - TECLADO MATRICIAL: Se utiliza para ingresar el código cuando el usuario olvida la tarjeta
 - SENSOR MAGNÉTICO: Se utiliza para detectar que la posición de la puerta sea la correcta para cerrar la puerta.
 
-  
+### Maquina de Estados
+![Estados TP2 SE](https://github.com/user-attachments/assets/89ae4942-22ab-4f68-b6c9-ae8b9b16837a)
+
 ### Diagrama en bloques:
 
 ![Sistemas Embebidos TP1 drawio](https://github.com/user-attachments/assets/3cda84e4-b717-47ed-8139-8f63a08ccd90)
